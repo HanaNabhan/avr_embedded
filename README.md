@@ -1,2 +1,3 @@
 # avr_embedded
-all drivers and projects using atmega32
+All drivers and projects using atmega32
+All driver has its simulation setup using proteus
