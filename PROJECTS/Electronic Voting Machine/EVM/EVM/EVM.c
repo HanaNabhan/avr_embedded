@@ -138,14 +138,15 @@ int main(void)
 			 c2=0;
 			 c3=0;
 			 c4=0;
-			 LCD_vMoveCursor(1,3);
-			 LCD_vSendData(c1+48);
-			 LCD_vMoveCursor(1,14);
-			 LCD_vSendData(c2+48);
-			 LCD_vMoveCursor(2,3);
-			 LCD_vSendData(c3+48);
-			 LCD_vMoveCursor(2,14);
-			 LCD_vSendData(c4+48);
+			 LCD_vCLR();
+			 LCD_vMoveCursor(1,1);
+			 LCD_vSendString("A=0");
+			 LCD_vMoveCursor(1,12);
+			 LCD_vSendString("B=0");
+			 LCD_vMoveCursor(2,1);
+			 LCD_vSendString("C=0");
+			 LCD_vMoveCursor(2,12);
+			 LCD_vSendString("D=0");
 		 }
 		 _delay_ms(200);
 		 
