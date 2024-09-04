@@ -4,14 +4,14 @@ This repository hosts a collection of AVR drivers and embedded systems projects 
 
 ## Overview
 
-The repository includes drivers for various peripherals. Each driver is designed to be modular and easily integrated into different projects. Alongside these drivers, you’ll find complete project examples that demonstrate the application of these drivers in real-world scenarios.
+The repository includes drivers for various peripherals. Each driver is designed to be modular and easily integrated into different projects. Alongside these drivers, you’ll find complete project examples that demonstrate the application of these drivers in real-world scenarios or simulation.
 
 
 ### Prerequisites
 
 Before using this repository, ensure you have the following:
 
-- An AVR development environment ( AVR-GCC, Atmel Studio or any other compatible IDE).
+- An AVR development environment ( AVR-GCC, Atmel Studio or any other compatible IDE and proteus for simulation).
 - Basic knowledge of C programming and embedded systems.
 - A compatible AVR microcontroller and development board.
 
